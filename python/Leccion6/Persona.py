@@ -3,7 +3,7 @@ class Persona: #Creamos una clase
         self.nombre = nombre
         self.apellido = apellido
         self.edad = edad
-        def mostrar_detalle(self):
+    def mostrar_detalle(self):
             print(f"Persona:{self.nombre}{self.apellido}{self.edad}")
 persona1 = Persona("Belen", "Rabel", 41) # Necesitamos enviar argumentos
 # print(persona1.nombre)
