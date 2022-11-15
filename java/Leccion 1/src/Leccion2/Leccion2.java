@@ -58,39 +58,7 @@ public class Leccion2 {
                 default:
                     numeroTexto= "caso no encontrado";  
         }            
-        System.out.println("numeroTexto = " + numeroTexto);
-
-
-
-
-
-
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        System.out.println("numeroTexto = " + numeroTexto);      
         
     }
 }
