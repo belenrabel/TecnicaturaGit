@@ -33,6 +33,8 @@ class Persona2:
     def edad(self, edad):
         self._edad = edad
 
+    def __del__(self):
+        print(f'Persona2: {self._nombre} {self.apellido}')
 
     @property
     def edad(self):

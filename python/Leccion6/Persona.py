@@ -36,3 +36,5 @@ print(f'Este es el telefono de: {persona1.nombre} {persona1.telefono}')  # Hemos
 # print(persona2.telefono) el ojeto persona2 no tiene atributo de error
 persona3 = Persona('Rogelio', 'Romero', 27, 'Telefono', '26056564', 'Calle Lopez', 801, 'Manzana', 77, 'Casa', 18, Altura=1.83, Peso=90, CFavorito='Azul', Auto='Citroen', Modelo=2021,)
 persona3.mostrar_detalle()
+# print(persona3._dni) # esto no se debe utilizar(esta encapsulado), esto dice que lo desconocemos python
+# persona3.__nombre # Está totalmente encapsulado
